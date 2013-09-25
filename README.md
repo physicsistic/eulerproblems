@@ -1,4 +1,5 @@
-eulerproblems
-=============
+Project Euler Problem Solutions
+===============================
 
-My solutions for problems I've solved on Project Euler
+Completed Problems: 
+	> 1 - 23, 67
