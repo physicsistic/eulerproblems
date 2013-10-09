@@ -21,3 +21,6 @@ def factorize(number):
 			else:
 				factors.append(i)
 	return factors
+
+def find_prime(max_number):
+	
