@@ -22,5 +22,22 @@ def factorize(number):
 				factors.append(i)
 	return factors
 
-def find_prime(max_number):
-	
+def erato_sieve(n):
+	nums = [True] * (n+1)
+	prime_nums = []
+	p = 2
+	while p <= n:
+		if nums[p] == False:
+			p += 1
+		else:
+			prime_nums.append(p)
+			pp = p * 2
+			while pp <= n:
+				nums[pp] = False
+				pp += p
+			p += 1
+
+	return prime_nums
+
+def erato_sieve_extend(primes, dn):
+	return None
